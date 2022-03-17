@@ -1,6 +1,6 @@
-from .cassiemujoco import pd_in_t, CassieSim, CassieVis
+from cassiemujoco import pd_in_t, CassieSim, CassieVis
 
-from .trajectory import CassieTrajectory
+from trajectory import CassieTrajectory
 
 from math import floor
 

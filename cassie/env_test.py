@@ -2,7 +2,7 @@ import numpy as np
 
 from cassie_env import CassieEnv
 
-from mujoco.cassiemujoco import *
+from cassiemujoco import *
 from trajectory.trajectory import CassieTrajectory
 
 traj = CassieTrajectory("trajectory/stepdata.bin")
