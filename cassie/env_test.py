@@ -21,9 +21,7 @@ for i in range(len(traj.qpos)):
     csim.set_qpos(qpos)
     csim.set_qvel(qvel)
 
-    y = csim.step_pd(u)
-
-    cvis.draw(csim)
+    y = csim.step_pd(u)    
 
     print(i, end='\r')
 
